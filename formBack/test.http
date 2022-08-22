@@ -1,0 +1,15 @@
+
+
+POST http://localhost:4000/app/signup
+Content-Type: application/json
+
+{
+    "carnet":"A25451",
+    "name":"Erick",
+    "address":"zona 7",
+    "gender":"Masculino",
+    "phone":"12341234",
+    "dateBirth":"2003-12-04",
+    "profession":"Mecánico",
+    "poetry":"Épico"
+}

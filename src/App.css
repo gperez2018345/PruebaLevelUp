@@ -1,0 +1,22 @@
+
+.formulario{
+    padding-top: 20px;
+    padding-left: 25%;
+    padding-right: 25%;
+    border-color: black;
+}
+
+.title{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.input{
+    padding: 2px;
+}
+
+
+.tabla{
+    padding-top: 200px;
+}
+
