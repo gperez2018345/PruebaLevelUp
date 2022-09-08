@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PruebaLevelUp/static/css/main.178ff371.css",
+    "main.js": "/PruebaLevelUp/static/js/main.3cb0272b.js",
+    "index.html": "/PruebaLevelUp/index.html",
+    "main.178ff371.css.map": "/PruebaLevelUp/static/css/main.178ff371.css.map",
+    "main.3cb0272b.js.map": "/PruebaLevelUp/static/js/main.3cb0272b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.178ff371.css",
+    "static/js/main.3cb0272b.js"
+  ]
+}
