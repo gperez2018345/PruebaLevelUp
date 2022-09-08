@@ -7,7 +7,7 @@ function Usuarios() {
     const [data, setDate] = useState([])
 
     useEffect(() =>{
-        axios.get('/getUsers').then(res =>{
+        axios.get('http://localhost:4000/app/getUsers').then(res =>{
             console.log("Obtenido de", res.data)
             setDate(res.data)
         }).catch(err => console.log(err))

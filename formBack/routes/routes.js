@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const Users = require('../models/signup.models');
 
-router.post('https://prueba-level-up.herokuapp.com/signup', (request, response)=>{
+router.post('/signup', (request, response)=>{
     if (
         (request.body.carnet[0] === "A" &&
         request.body.carnet[2] === "5") &&
@@ -31,7 +31,7 @@ router.post('https://prueba-level-up.herokuapp.com/signup', (request, response)=
   }
 })
 
-router.get('https://prueba-level-up.herokuapp.com/getUsers', (request, response) =>{
+router.get('/getUsers', (request, response) =>{
     Users.find({}, function(documentos, err){
         if(!err){
             response.send(documentos)
