@@ -91,7 +91,7 @@ class Registro extends Component {
             poetry: this.state.poetry
         }
 
-        axios.post('http://localhost:4000/app/signup', registered).then(response => console.log(response.data))
+        axios.post('/signup', registered).then(response => console.log(response.data))
         
         this.setState({
             carnet:'',
